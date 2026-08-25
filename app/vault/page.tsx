@@ -684,7 +684,9 @@ function PlayerImage({
   if (!sources.length || index >= sources.length) {
     return (
       <div className="flex h-full w-full items-center justify-center">
-        <imgIcon size={32} />
+        <div className="flex h-full w-full items-center justify-center">
+  <span className="text-2xl">🖼️</span>
+</div>
       </div>
     );
   }
