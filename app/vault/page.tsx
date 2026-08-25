@@ -521,7 +521,7 @@ export default function VaultPage() {
             </div>
           )}
 
-          {players.slice(0, 12).flatMap((player) => player.images).map((src) => (
+         
             {players.slice(0, 12).flatMap((player) => player.images).map((src) => (
   <img
     key={src}
