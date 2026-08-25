@@ -522,13 +522,14 @@ export default function VaultPage() {
           )}
 
           {players.slice(0, 12).flatMap((player) => player.images).map((src) => (
-            <imgPreloader key={src} src=<img
-  key={src}
-  src={src}
-  alt=""
-  style={{ display: "none" }}
-/>{src} />
-          ))}
+            {players.slice(0, 12).flatMap((player) => player.images).map((src) => (
+  <img
+    key={src}
+    src={src}
+    alt=""
+    style={{ display: "none" }}
+  />
+))}
 
           {players.length > 0 && (
             <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
