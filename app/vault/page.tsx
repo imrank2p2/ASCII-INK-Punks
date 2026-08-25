@@ -28,7 +28,7 @@ declare global {
     ethereum?: {
       request: (args: { method: string; params?: unknown[] }) => Promise<unknown>;
       on?: (event: string, listener: (...args: unknown[]) => void) => void;
-      removeListener?: (event: string, listener: (...args: unknown[]) => void) => void;
+      removeListener?: (event: string, listen<imgPreloader key={src} src={src} />er: (...args: unknown[]) => void) => void;
     };
   }
 }
@@ -522,7 +522,12 @@ export default function VaultPage() {
           )}
 
           {players.slice(0, 12).flatMap((player) => player.images).map((src) => (
-            <imgPreloader key={src} src={src} />
+            <imgPreloader key={src} src=<img
+  key={src}
+  src={src}
+  alt=""
+  style={{ display: "none" }}
+/>{src} />
           ))}
 
           {players.length > 0 && (
