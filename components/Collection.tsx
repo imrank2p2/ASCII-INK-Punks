@@ -26,11 +26,11 @@ export default function Collection() {
               className="pixel-border overflow-hidden bg-purple-950/50 p-2 transition-transform hover:-translate-y-1 sm:p-3"
             >
               <div className="overflow-hidden border border-white/40 bg-fuchsia-300">
-                <img
-                  src={String(image)}
-                  alt={`ASCCI INK Punk #${id}`}
-                  className="aspect-square w-full object-cover"
-                />
+               <img
+  src={String(image)}
+  alt={`ASCCI INK Punk #${id}`}
+  className="aspect-square w-full object-cover"
+/>
               </div>
               <p className="pixel mt-4 px-1 pb-1 text-[7px] sm:text-[9px]">
                 INK PUNK #{String(id).padStart(2, "0")}
