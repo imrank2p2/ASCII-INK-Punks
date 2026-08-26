@@ -53,11 +53,10 @@ export default function NFTCard() {
           className="overflow-hidden rounded-[28px]"
         >
           <img
-            src="/ascci-hero-v2.gif"
-            alt="NFT"
-            priority
-            className="aspect-square w-full object-cover transition duration-500 hover:scale-105"
-          />
+  src="/ascci-hero-v2.gif"
+  alt="NFT"
+  className="aspect-square w-full object-cover transition duration-500 hover:scale-105"
+/>
         </div>
 
         {/* Content */}
