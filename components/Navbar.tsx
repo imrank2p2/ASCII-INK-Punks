@@ -14,7 +14,7 @@ export default function Navbar() {
           <a href="#about">ABOUT</a>
           <a href="#collection">COLLECTION</a>
           <Link href="/apply">APPLY</Link>
-          <a href="https://x.com/" target="_blank" rel="noreferrer">X</a>
+          <a href="https://x.com/GlowPunkNFT" target="_blank" rel="noreferrer">X</a>
         </nav>
 
         <Link href="/apply" className="pixel-button !px-3 !py-2 !text-[8px]">
