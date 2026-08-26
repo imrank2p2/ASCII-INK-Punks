@@ -27,7 +27,7 @@ export default function Collection() {
             >
               <div className="overflow-hidden border border-white/40 bg-fuchsia-300">
                 <img
-                  src={image}
+                  src={String(image)}
                   alt={`ASCCI INK Punk #${id}`}
                   className="aspect-square w-full object-cover"
                 />
